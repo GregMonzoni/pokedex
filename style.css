@@ -1,0 +1,72 @@
+body {
+    background-image: url(https://images7.alphacoders.com/592/592678.jpg);
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+#pokebola {
+    width: 35px;
+}
+
+.painel{
+    background-color: tomato;
+    border: 10px solid brown;
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+    padding-top: 10px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow: 3px 3px 15px black;
+}
+
+.frontal {
+    width: 45%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#tela{
+    background-image: url(./img/tela.avif);
+    margin: auto;
+    border: 12px solid #202020;
+    width: 300px;
+    height: 285px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    animation: carregar 5s alternate;
+
+}
+@keyframes carregar {
+    0% { height: 0; }
+    100% {}
+} 
+
+button {
+    height: 35px;
+    margin: 7px;
+    background-color: #202020;
+    color: aliceblue;
+    border: 3px solid grey;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+
+button:hover {
+    background-color: #2c2c2c;
+}
+
+#entrada {
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
